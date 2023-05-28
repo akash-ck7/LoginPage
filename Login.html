@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- login form -->
+    <div class="box">
+        <img src="images.png" alt="userImage" width="50px" class="user">
+        
+        <h1>Login Here</h1>
+
+        <!-- Form -->
+        <form name="myLoginForm" onsubmit="return formFunction()">
+
+            <p>Username</p>
+            <input type="text" placeholder="Enter Username" name="username">
+
+            <p>Password</p>
+            <input type="password" placeholder="Enter Password" name="password">
+
+            <!-- for validation -->
+            <div id="errorBox"></div>
+            <br>
+            <input type="submit" value="Login">
+            <br><br>
+
+            <a href="Register.html">Click Here to Register</a>
+
+
+
+        </form>
+    </div>
+</body>
+</html>
